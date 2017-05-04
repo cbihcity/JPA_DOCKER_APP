@@ -14,6 +14,7 @@ import java.util.List;
 /**
  * Created by ihhe0417 on 4/26/2017.
  */
+@Transactional
 public interface JournalRepository extends CrudRepository<Journal, Long> {
 
 
