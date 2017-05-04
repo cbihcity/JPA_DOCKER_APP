@@ -28,7 +28,7 @@ public class JournalRest {
     @RequestMapping("/insertdata")
     public String home() throws ParseException {
         service.insertData();
-        return "Data inserted succesfully";
+        return "Data inserted succesfull";
     }
 
     @RequestMapping("/del")
