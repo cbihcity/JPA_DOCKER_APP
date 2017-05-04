@@ -28,7 +28,7 @@ public class SimpleJpaAppApplication {
 
            // service.insertData();
 
-//			log.info("#### > Finding all entities");
+			log.info("#### > Finding all entities");
 //			service.findAll().forEach(journal -> log.info(journal.toString()));
 //			log.info("#### > Custom query...");
 //			service.findByCustomQuery("Simple").forEach(journal -> log.info(journal.toString()));
