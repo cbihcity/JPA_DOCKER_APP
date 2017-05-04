@@ -53,7 +53,7 @@ public class JournalService {
 //    }
 //
     public void deleteAll(){
-        repo.deleteAll();
+        repo.delete(repo.findAll());
     }
 //
 //    public List<Journal> findByCustomQuery(String word){

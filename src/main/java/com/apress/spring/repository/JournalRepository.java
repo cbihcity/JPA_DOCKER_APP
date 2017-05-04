@@ -17,6 +17,6 @@ import java.util.List;
 public interface JournalRepository extends CrudRepository<Journal, Long> {
 
 
-    @Transactional
-    void deleteAll();
+    @Override
+    void delete(Iterable<? extends Journal> iterable);
 }
