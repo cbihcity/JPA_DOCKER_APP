@@ -27,7 +27,7 @@ public class Journal implements Serializable {
     private String summary;
 
     @JsonIgnore
-    @ManyToOne(cascade = CascadeType.MERGE)
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_course")
     private Title titlet;
 

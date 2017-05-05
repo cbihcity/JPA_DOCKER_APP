@@ -18,7 +18,7 @@ public class Title {
 
     private String course;
 
-    @OneToMany(cascade = CascadeType.MERGE)
+    @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_course")
     List<Journal> list = new ArrayList<>();
 
