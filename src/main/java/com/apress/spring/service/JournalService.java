@@ -48,9 +48,9 @@ public class JournalService {
         return list;
     }
 
-//    public void deleteCustomJournal(String title){
-//        repo.deleteJournalByTitleContains(title);
-//    }
+    public void deleteCustomJournal(String title){
+
+    }
 //
     public void deleteAll(){
         repo.delete(repo.findAll());
