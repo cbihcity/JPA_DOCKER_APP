@@ -86,7 +86,7 @@
                             <image>${docker.image.prefix}/${project.artifactId}</image>
                             <serverId>docker-hub</serverId>
                             <registryUrl>https://index.docker.io/v1/</registryUrl>
-                            <newName>cbihcity\simple-jpa-ap</newName>
+                            <newName>cbihcity/simple-jpa-ap</newName>
                             <pushImage>true</pushImage>
                         </configuration>
                     </execution>
