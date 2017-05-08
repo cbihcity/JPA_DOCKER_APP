@@ -51,6 +51,16 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>gene</id>
+            <name>chuangg</name>
+            <uniqueVersion>false</uniqueVersion>
+            <layout>legacy</layout>
+            <url>https://index.docker.io/v1/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
