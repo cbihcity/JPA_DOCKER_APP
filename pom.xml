@@ -55,6 +55,7 @@
         <repository>
             <id>docker-hub</id>
             <layout>latest</layout>
+            <uniqueVersion>true</uniqueVersion>
             <url>https://index.docker.io/v1/</url>
         </repository>
     </distributionManagement>
