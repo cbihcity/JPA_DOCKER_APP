@@ -53,9 +53,8 @@
 
     <distributionManagement>
         <repository>
-            <id>gene</id>
-            <name>chuangg</name>
-            <url>https://index.docker.io/v1/</url>
+            <id>disasterarea-ftp</id>
+            <url>ftp://user20247.vs.easily.co.uk/website/maven</url>
         </repository>
     </distributionManagement>
 
