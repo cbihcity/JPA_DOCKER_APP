@@ -51,6 +51,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>docker-hub</id>
+            <layout>cbihcity</layout>
+            <url>https://index.docker.io/v1/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
