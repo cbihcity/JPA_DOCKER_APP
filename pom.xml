@@ -75,9 +75,7 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
-                    <imageTags>
-                        <imageTag>latest</imageTag>
-                    </imageTags>
+                    <pushImage>true</pushImage>
                 </configuration>
             </plugin>
         </plugins>
