@@ -71,6 +71,7 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
+                    <serverId>docker-hub</serverId>
                     <pushImage>true</pushImage>
                 </configuration>
             </plugin>
