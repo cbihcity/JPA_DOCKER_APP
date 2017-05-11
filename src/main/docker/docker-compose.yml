@@ -9,7 +9,7 @@ services:
       - POSTGRES_USER:'postgres'
       - POSTGRES_PASSWORD:'pass'
     ports:
-      - '5432:5432'
+      - "5432:5432"
   simple-jpa-ap:
     restart: always
     image: cbihcity/simple-jpa-ap
