@@ -72,8 +72,17 @@
                         </resource>
                     </resources>
                     <serverId>docker-hub</serverId>
-                    <pushImage>false</pushImage>
+                    <pushImage>true</pushImage>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>build-image</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
