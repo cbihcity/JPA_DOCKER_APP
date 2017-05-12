@@ -18,3 +18,17 @@ services:
       - postgres
     ports:
       - "8090:8090"
+  mongo_db:
+        restart: always
+        image: mongo
+        container_name: mongo_db
+        ports:
+          - "27017:27017"
+  simple-nosql-ap:
+      restart: always
+      image: cbihcity/mongo-app
+      container_name: mongo_app
+      links:
+        - mongo_db
+      ports:
+        - "1111:1111"
